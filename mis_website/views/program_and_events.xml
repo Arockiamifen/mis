@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    About MIS
+    <template id="program_events_gallery" name="Program and Events">
+        <t t-call="website.layout">
+            <section
+                    class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24"
+                    data-vcss="001" data-snippet="s_title"
+                    data-scroll-background-ratio="1">
+                <span class="s_parallax_bg oe_img_bg"
+                      style="background-position: 50% 0;">
+                    <img src="https://media.istockphoto.com/id/1410336912/photo/happy-teacher-and-schoolgirl-giving-high-five-during-class-at-school.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=6kzktqHzjmCr5NT54ARvu5zV5HjOyzeRzvQfmhsQZjY="/>
+                </span>
+                <div class="o_we_bg_filter bg-black-50"/>
+                <div class="container">
+                    <h1>Program &amp; Events</h1>
+                </div>
+            </section>
+            <div id="wrap" class="o_wevent_index">
+                <!-- Options -->
+                <t t-set="opt_events_list_cards" t-value="is_view_active('website_event.opt_events_list_cards')"/>
+                <t t-set="opt_events_list_columns" t-value="is_view_active('website_event.opt_events_list_columns')"/>
+               <div class="container mt-3 mb-4">
+                <div class="o_wevent_index_topbar_filters d-flex d-print-none align-items-center justify-content-end flex-wrap gap-2 w-100">
+                    <h2 class="h4 my-0 me-auto pe-sm-4">Events</h2>
+                        <t t-foreach="events" t-as="event">
+                            <div  class="dropdown d-none d-lg-block">
+                                <a href="#" role="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                                    <t t-out="event.name"/>
+                                </a>
+                            </div>
+                        </t>
+                </div>
+               </div>
+            </div>
+<!--            <div class="o_wevent_events_list">-->
+<!--                <div class="container">-->
+    <!--                    <t t-call="website_event.searched_tags"/>-->
+                    <div class="row">
+                        <div class="row g-4 g-lg-3 g-xxl-4">
+                            <div t-if="not photos" class="col-12 alert alert-warning mt8">
+                                No results found for '<span t-out="original_search"/>'. Showing results for '/>'.
+                            </div>
+                        </div>
+                    </div>
+    <!-- List -->
+
+                <div id="eventsContainer" class="row mt-4">
+                     <t t-foreach="photos" t-as="event" >
+                    <div class="col-md-3 text-center">
+                        <div>
+                            <img t-attf-src="data:image/png;base64,{{event.photo}}" height="250" wigth="250" />
+                        </div>
+                        <div class="text-primary">
+                                <span t-out="event.name"></span>
+                        </div>
+                    </div>
+                </t>
+            </div>
+            <div id="eventsContainer" class="row mt-4">
+                                                            <div class="col-md-3 text-center">
+                            <div>
+                                <a href="https://relaxripple.in/gallery/8">
+                                    <img src="https://relaxripple.in/storage/events/DnsU7rM4C5qYPtTBU8cOxOwLW5RJzak0hIjFC2Hm.jpg" width="250" height="250"></img>
+                                </a>
+                            </div>
+                            <div class="text-primary">
+                                FOOTBALL MATCH Date:2024-08-16
+                            </div>
+                        </div>
+                                            <div class="col-md-3 text-center">
+                            <div>
+                                <a href="https://relaxripple.in/gallery/7">
+                                    <img src="https://relaxripple.in/storage/events/ap6uDZYfuwhSSjQJNjigchnm6L3ezw0G0beoW54b.jpg" width="250" height="250"></img>
+                                </a>
+                            </div>
+                            <div class="text-primary">
+                                INDEPENDENCE DAY 2024 Date:2024-08-15
+                            </div>
+                        </div>
+                                                </div>
+    </t>
+</template>
+
+
+</odoo>

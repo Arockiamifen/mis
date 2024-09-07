@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="template_header_sales_three_custom" inherit_id="website.template_header_sales_three" name="Template Header Sale 3" active="False">
+        <xpath expr="//t[@t-call='website.placeholder_header_brand']" position="after">
+            <div>
+                    <div>
+                        <h3>MAry IMMACULATE ENGLISH MEDIUM SCHOOL</h3>
+                    </div>
+
+
+                </div>
+    </xpath>
+    </template>
+
+<!--    <template id="template_header_sales_three" inherit_id="website.template_header_sales_three" name="School Name" active="False">-->
+<!--        <xpath expr="//div[@class='ms-auto']" position="before">-->
+<!--            <div>-->
+<!--                <h3>MAry IMMACULATE ENGLISH MEDIUM SCHOOL</h3>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+</odoo>
+

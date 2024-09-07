@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<!--    Academic-->
+    <template id="academic" name="Academic MIS">
+        <t t-call="website.layout">
+            <section
+                    class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24"
+                    data-vcss="001" data-snippet="s_title"
+                    data-scroll-background-ratio="1">
+                <span class="s_parallax_bg oe_img_bg"
+                      style="background-position: 50% 0;">
+                    <img src="https://media.istockphoto.com/id/1410336912/photo/happy-teacher-and-schoolgirl-giving-high-five-during-class-at-school.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=6kzktqHzjmCr5NT54ARvu5zV5HjOyzeRzvQfmhsQZjY="/>
+                </span>
+                <div class="o_we_bg_filter bg-black-50"/>
+                <div class="container">
+                    <h1>Academic MIS</h1>
+                </div>
+            </section>
+        </t>
+    </template>
+
+<!--    Student Performance-->
+    <template id="student_performance" name="Student Performance MIS">
+        <t t-call="website.layout">
+            <section
+                    class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24"
+                    data-vcss="001" data-snippet="s_title"
+                    data-scroll-background-ratio="1">
+                <span class="s_parallax_bg oe_img_bg"
+                      style="background-position: 50% 0;">
+                    <img src="https://media.istockphoto.com/id/1410336912/photo/happy-teacher-and-schoolgirl-giving-high-five-during-class-at-school.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=6kzktqHzjmCr5NT54ARvu5zV5HjOyzeRzvQfmhsQZjY="/>
+                </span>
+                <div class="o_we_bg_filter bg-black-50"/>
+                <div class="container">
+                    <h1>Student Performance</h1>
+                </div>
+            </section>
+        </t>
+    </template>
+
+
+</odoo>

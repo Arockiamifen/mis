@@ -13,6 +13,16 @@ class OnlineAdmission(http.Controller):
         """To redirect to contact page."""
         return request.render('mis_website.university')
 
+    @http.route('/call', type='http', auth='public', website=True)
+    def about_contact_us(self):
+        """To redirect to contact page."""
+        return request.render('mis_website.custom_website_page')
+
+    @http.route('/library', type='http', auth='public', website=True)
+    def about_contact_us(self):
+        """To redirect to contact page."""
+        return request.render('mis_website.custom_library')
+
     @http.route('/applyonline', type='http', auth='public', website=True)
     def online_admission(self):
         """To pass certain default field values

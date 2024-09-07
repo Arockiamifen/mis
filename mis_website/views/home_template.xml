@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="mis_home_page" name="MIS Website Page">
+        <t t-call="website.layout">
+             <div class="container-fluid mt-2">
+		<div class="row">
+                    <!-- Hover Effect 1 -->
+                    <h3 class="display-2 mb-5 facility-text bg-primary"><span class="x_wd_blue_highlight_05">Craft</span> your Childrens Life Brighter...</h3>
+                    <div class="col-md-3 p-0">
+<!--                        <div class="card hov_hi text-dark mb-3" >-->
+                            <h5 style="color:#3f4475;"><u>Notice Or Announcement</u></h5>
+                            <marquee class="fixed-marquee2" behavior="scroll" direction="down" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                                <p style="font-weight:bold; text-decoration:underline; padding-left:4px;">Notification</p>
+                                    <ol id="cphContents_admitCardNotification">
+                                        <li><b>2024-08-19/Students infromaion</b>, All the students are requested to come to school on  Independeacce day for the   Inter House Comepetition</li><br></br>
+                                                                                                    </ol>
+                            </marquee>
+<!--                        </div>-->
+                    </div>
+                    <div class="col-md-6 p-0">
+                            <video width="100%" controls="" autoplay="" muted="" loop="">
+                                <source src="https://relaxripple.in/storage/videos/GTfkd9ZHwT8MyC6u3dgBlLvZau3bwlidu1Q4LTtE.mp4" type="video/mp4"></source>
+                            </video>
+                    </div>
+
+                    <!-- Hover Effect 2 -->
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <div class="col-md-6" style="border:1px solid black;">-->
+<!--                            <section class="pb-7 ">-->
+<!--&lt;!&ndash;                                <div class="container">&ndash;&gt;-->
+
+<!--                                    <div class="row justify-content-center">-->
+<!--                                        <div class="col-xl-10 x_wd_shape_circle pb40">-->
+<!--                                            <video autoplay="autoplay" loop="loop" muted="muted" class="img-thumbnail" id="crm_dashboard">-->
+<!--&lt;!&ndash;                                                <source src="https://download.odoocdn.com/videos/odoo_com/video_website.webm" type="video/webm"></source>&ndash;&gt;-->
+<!--                                                <source src="/mis_website/static/src/img/GTfkd9ZHwT8MyC6u3dgBlLvZau3bwlidu1Q4LTtE.mp4" type="video/mp4"></source>-->
+<!--                                            </video>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--                            </section>-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+
+                    <!-- Hover Effect 3 -->
+<!--                    <div class="col-md-3 text-center" style="border:1px solid black;">-->
+<!--                                    <img src="https://odoocdn.com/openerp_website/static/src/img/icons/diamond.svg" width="100px" class="mx-auto mb-3" alt="" loading="lazy" style=""></img>-->
+
+                       <div class="col-md-3 p-0">
+				<div class="r-bg">
+					<div class="row">
+                        <img src="https://relaxripple.in/landing/assets/newExtra/invetory.jpg" alt="" height="200"></img>
+					</div>
+					<div class="row mt-2">
+						<div class="l-bg">
+							<h5 style="color:#3f4475;">Today's <strong>Birthday</strong></h5>
+                            <marquee class="fixed-marquee" behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                                <p style="font-weight:bold; text-decoration:underline; padding-left:4px;"></p>
+                                    <ul id="cphContents_admitCardNotification">
+                                        <li><b>Today No One's Birthday</b></li>
+                                    </ul>
+                            </marquee>
+						</div>
+					</div>
+                    </div>
+<!--                       </div>-->
+                    </div>
+                </div>
+
+
+
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <h1 class="shadow-sm bg-warning rounded-1 p-2 m-3">School Facilities</h1>
+                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow o_onboarding_slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-primary">
+                                <span class="bg-primary"></span>
+                                <i class="fa fa-bus fa-3x text-primary"></i>
+                                <span class="bg-primary"></span>
+                            </div>
+                            <div class="facility-text bg-primary">
+                                <h3 class="text-primary mb-3">School Bus</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow o_onboarding_slideInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-success">
+                                <span class="bg-success"></span>
+                                <i class="fa fa-futbol fa-3x text-success"></i>
+                                <span class="bg-success"></span>
+                            </div>
+                            <div class="facility-text bg-success">
+                                <h3 class="text-success mb-3">Playground</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow o_onboarding_slideInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-warning">
+                                <span class="bg-warning"></span>
+                                <i class="fa fa-home fa-3x text-warning"></i>
+                                <span class="bg-warning"></span>
+                            </div>
+                            <div class="facility-text bg-warning">
+                                <h3 class="text-warning mb-3">Healthy Canteen</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-info">
+                                <span class="bg-info"></span>
+                                <i class="fa fa-chalkboard-teacher fa-3x text-info"></i>
+                                <span class="bg-info"></span>
+                            </div>
+                            <div class="facility-text bg-info">
+                                <h3 class="text-info mb-3">Positive Learning</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="counts" class="section counts light-background">
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="0" class="purecounter">1232</span>
+              <p>Students</p>
+            </div>
+          </div><!-- End Stats Item -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="0" class="purecounter">64</span>
+              <p>Courses</p>
+            </div>
+          </div><!-- End Stats Item -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="0" class="purecounter">42</span>
+              <p>Events</p>
+            </div>
+          </div><!-- End Stats Item -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="0" class="purecounter">24</span>
+              <p>Trainers</p>
+            </div>
+          </div><!-- End Stats Item -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+                <div class="container-fluid mt-2">
+		<div class="row">
+			<div class="col-md-3 p-0">
+				<div class="card hov_hi text-dark bg-primary mb-3" style="height: 150px;">
+					<div class="card header text-center">
+						<h3>Message</h3>
+					</div>
+					<div class="card-body overflow-auto">
+						<div>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 p-0">
+				<div class="card hov_hi text-dark bg-success mb-3" style="height: 150px;">
+					<div class="card header text-center">
+						<h3>Prospectus</h3>
+					</div>
+					<div class="card-body overflow-auto">
+						<div>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 p-0">
+				<div class="card hov_hi text-dark bg-info mb-3" style="height: 150px;">
+					<div class="card header text-center">
+						<h3>Calendar</h3>
+					</div>
+					<div class="card-body overflow-auto">
+						<div>School Calendar...</div>
+                        <div class="mt-3"><a href="https://relaxripple.in/Calendar" class="btn btn-danger">Read More</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 p-0">
+				<div class="card hov_hi text-dark bg-secondary mb-3" style="height: 150px;">
+					<div class="card header text-center">
+						<h3>Admin</h3>
+					</div>
+					<div class="card-body overflow-auto">
+						<div>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+            <div class="container-xxl py-5">
+		<div class="container">
+			<div class="row g-4">
+												<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+					<div class="service-item text-center pt-3">
+						<div class="p-4">
+							<svg class="svg-inline--fa fa-graduation-cap fa-w-20 fa-3x text-primary mb-4" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="graduation-cap" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z"></path></svg><!-- <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i> Font Awesome fontawesome.com -->
+							<h5 class="mb-3">Skilled Instructors</h5>
+							<p>hi i am there, can you see me (::)</p>
+						</div>
+					</div>
+				</div>
+								<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+					<div class="service-item text-center pt-3">
+						<div class="p-4">
+							<svg class="svg-inline--fa fa-laptop fa-w-20 fa-3x text-primary mb-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="laptop" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg><!-- <i class="fa fa-3x fas fa-laptop text-primary mb-4"></i> Font Awesome fontawesome.com -->
+							<h5 class="mb-3">Bright Education With DIGITAL BOARD</h5>
+							<p>Bright Education With DIGITAL BOARD</p>
+						</div>
+					</div>
+				</div>
+								<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+					<div class="service-item text-center pt-3">
+						<div class="p-4">
+							<svg class="svg-inline--fa fa-home fa-w-18 fa-3x text-primary mb-4" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg><!-- <i class="fa fa-3x fa-home text-primary mb-4"></i> Font Awesome fontawesome.com -->
+							<h5 class="mb-3">Library test</h5>
+							<p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+						</div>
+					</div>
+				</div>
+								<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+					<div class="service-item text-center pt-3">
+						<div class="p-4">
+							<svg class="svg-inline--fa fa-trophy fa-w-18 fa-3x text-primary mb-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="trophy" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z"></path></svg><!-- <i class="fa fa-3x fas fa-trophy text-primary mb-4"></i> Font Awesome fontawesome.com -->
+							<h5 class="mb-3">Play Ground</h5>
+							<p>we have a ground</p>
+						</div>
+					</div>
+				</div>
+
+							</div>
+		</div>
+	</div>
+
+
+            <div class="row g-4">
+
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="x_wd_app_horizontal d-flex position-relative">
+                <a class="stretched-link" href="/app/ecommerce">
+                    <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 m-3" src="//download.odoocdn.com/icons/website_sale/static/description/icon.svg" alt="Odoo eCommerce icon" loading="lazy" style=""></img>
+                </a>
+                <div class="my-4 me-4 lh-sm">
+                    <h5 class="mb-0">eCommerce</h5>
+                    <small class="text-muted">Your online store</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="x_wd_app_horizontal d-flex position-relative">
+                <a class="stretched-link" href="/app/events">
+                    <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 m-3" src="//download.odoocdn.com/icons/website_event/static/description/icon.svg" alt="Odoo Events icon" loading="lazy" style=""></img>
+                </a>
+                <div class="my-4 me-4 lh-sm">
+                    <h5 class="mb-0">Events</h5>
+                    <small class="text-muted">Sell tickets online</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="x_wd_app_horizontal d-flex position-relative">
+                <a class="stretched-link" href="/app/elearning">
+                    <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 m-3" src="//download.odoocdn.com/icons/website_slides/static/description/icon.svg" alt="Odoo eLearning icon" loading="lazy" style=""></img>
+                </a>
+                <div class="my-4 me-4 lh-sm">
+                    <h5 class="mb-0">eLearning</h5>
+                    <small class="text-muted">Share knowledge</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="x_wd_app_horizontal d-flex position-relative">
+                <a class="stretched-link" href="/app/crm">
+                    <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 m-3" src="//download.odoocdn.com/icons/crm/static/description/icon.svg" alt="Odoo CRM icon" loading="lazy" style=""></img>
+                </a>
+                <div class="my-4 me-4 lh-sm">
+                    <h5 class="mb-0">CRM</h5>
+                    <small class="text-muted">Generate leads</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="x_wd_app_horizontal d-flex position-relative">
+                <a class="stretched-link" href="/app/appointments">
+                    <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 m-3" src="//download.odoocdn.com/icons/appointment/static/description/icon.svg" alt="Odoo Appointments icon" loading="lazy" style=""></img>
+                </a>
+                <div class="my-4 me-4 lh-sm">
+                    <h5 class="mb-0">Appointments</h5>
+                    <small class="text-muted">Self-service booking</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-4">
+            <div class="x_wd_app_horizontal d-flex position-relative">
+                <a class="stretched-link" href="/app/recruitment">
+                    <img width="60" height="60" class="bg-white shadow-sm rounded-1 p-2 m-3" src="//download.odoocdn.com/icons/hr_recruitment/static/description/icon.svg" alt="Odoo Recruitment icon" loading="lazy" style=""></img>
+                </a>
+                <div class="my-4 me-4 lh-sm">
+                    <h5 class="mb-0">Recruitment</h5>
+                    <small class="text-muted">Publish offers and apply online</small>
+                </div>
+            </div>
+        </div>
+
+                </div>
+
+
+        </t>
+
+    </template>
+
+</odoo>

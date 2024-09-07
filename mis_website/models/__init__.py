@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
 
-# from . import wizard
+from . import program_events
+from . import web_video

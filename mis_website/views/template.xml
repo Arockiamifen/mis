@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="mis_home_page" name="MIS Website Page">
+        <t t-call="website.layout">
+
+            <div class="container mt32 mb32">
+                <div class="row">
+                    <!-- Hover Effect 1 -->
+                    <div class="col-md-3 text-center">
+                        <announcement>
+                            <title>Notice Board</title>
+                            <date>2024-09-04</date>
+                            <time>02:00 AM - 04:00 AM</time>
+                            <message>
+                                <![CDATA[
+                                We will be performing scheduled maintenance on our servers. During this time, access to our services will be intermittent.
+                                We apologize for any inconvenience and appreciate your understanding.
+                                ]]>
+                            </message>
+                            <contact>
+                                <name>John Doe</name>
+                                <email>support@example.com</email>
+                            </contact>
+                        </announcement>
+                    </div>
+
+                    <!-- Hover Effect 2 -->
+<!--                    <div class="col-md-4 text-center">-->
+                        <div class="col-md-6">
+                            <div class="o_video_preview position-relative border-0 p-3">
+                                <div  class="o_video_dialog_preview_text mb-2">Preview</div>
+                                <div class="media_iframe_video">
+                                    <div class="media_iframe_video_size"/>
+                                    <VideoIframe
+                                        src="/mis_website/static/src/img/GTfkd9ZHwT8MyC6u3dgBlLvZau3bwlidu1Q4LTtE.mp4"/>
+<!--                                    <div t-if="this.state.errorMessage" class="alert alert-warning o_video_dialog_iframe mw-100 mh-100 mb-2 mt-2" t-esc="this.state.errorMessage"/>-->
+                                </div>
+                            </div>
+                        </div>
+<!--                    </div>-->
+
+                    <!-- Hover Effect 3 -->
+                    <div class="col-md-3 text-center">
+                        <announcement>
+                            <title>Notice Board</title>
+                            <date>2024-09-04</date>
+                            <time>02:00 AM - 04:00 AM</time>
+                            <message>
+                                <![CDATA[
+                                We will be performing scheduled maintenance on our servers. During this time, access to our services will be intermittent.
+                                We apologize for any inconvenience and appreciate your understanding.
+                                ]]>
+                            </message>
+                            <contact>
+                                <name>John Doe</name>
+                                <email>support@example.com</email>
+                            </contact>
+                        </announcement>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </t>
+
+    </template>
+
+
+
+
+
+    <template id="custom_website_page" name="Custom Website Page">
+        <t t-call="website.layout">
+             <section
+                    class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24"
+                    data-vcss="001" data-snippet="s_title"
+                    data-scroll-background-ratio="1">
+                <span class="s_parallax_bg oe_img_bg"
+                      style="background-position: 50% 0;">
+                    <img src="/mis_website/static/src/img/addmission.jpg"/>
+                </span>
+                <div class="o_we_bg_filter bg-black-50"/>
+                <div class="container text-center">
+                    <h1>About Us</h1>
+                </div>
+            </section>
+            <!-- Page title -->
+            <div class="container mt16 mb16">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Welcome to My Custom Page</h1>
+                        <p>This is a custom page designed in Odoo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <div class="container mt32 mb32">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Hero Section</h2>
+                        <p>Highlight your product or service here.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/mis_website/static/src/img/addmission.jpg" class="img-fluid" alt="Hero Image"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="container mt32 mb32">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <h3>Feature 1</h3>
+                        <p>Describe the feature here.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3>Feature 2</h3>
+                        <p>Describe the feature here.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3>Feature 3</h3>
+                        <p>Describe the feature here.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Section -->
+            <div class="container mt32 mb32">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Ready to Get Started?</h2>
+                        <a href="/contactus" class="btn btn-success">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+    <template id="custom_library" name="Custom Website Page">
+        <t t-call="website.layout">
+             <section
+                    class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24"
+                    data-vcss="001" data-snippet="s_title"
+                    data-scroll-background-ratio="1">
+                <span class="s_parallax_bg oe_img_bg"
+                      style="background-position: 50% 0;">
+                    <img src="/mis_website/static/src/img/addmission.jpg"/>
+                </span>
+                <div class="o_we_bg_filter bg-black-50"/>
+                <div class="container text-center">
+                    <h1>Library</h1>
+                </div>
+            </section>
+            <div class="container mt16 mb16 ">
+                <!-- Page Title -->
+                <div class="row">
+                    <div class="col-12 text-center ">
+                        <h1 class="display-4">Welcome to Odoo Website</h1>
+                        <p class="lead">This is an example of basic text styling in Odoo.</p>
+                    </div>
+                </div>
+
+                <!-- Paragraphs and Headings -->
+                <div class="row mt32">
+                    <div class="col-12">
+                        <h2>Section Heading</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+
+                        <h3>Subheading</h3>
+                        <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+
+                        <h4>Another Subheading</h4>
+                        <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    </div>
+                </div>
+
+                <!-- Blockquote -->
+                <div class="row mt32">
+                    <div class="col-12 ">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"This is a blockquote example. It is used to highlight important text."</p>
+                            <footer class="blockquote-footer">Someone Famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt16 mb16">
+                <!-- Page Title -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4"></h1>
+                        <p class="lead">This is an example of basic text styling in Odoo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text with Background -->
+            <div class="container-fluid bg-primary text-white py-5">
+                <div class="container text-center">
+                    <h2 class="font-weight-bold">Stand Out with a Bold Message</h2>
+                    <p class="font-italic">This text is displayed over a colored background with custom font styles.</p>
+                </div>
+            </div>
+
+            <!-- Text with Custom Fonts and Alignment -->
+            <div class="container mt32 mb32">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <h3 style="font-family: 'Courier New', Courier, monospace;">Left-Aligned Text</h3>
+                        <p>This text is aligned to the left with a custom monospace font.</p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <h3 style="font-family: 'Georgia', serif;">Right-Aligned Text</h3>
+                        <p>This text is aligned to the right with a custom serif font.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt32 mb32">
+                <div class="row">
+                    <!-- Hover Effect 1 -->
+                    <div class="col-md-4 text-center">
+                        <h3 class="hover-underline" style="transition: color 0.3s;">Hover Over Me</h3>
+                        <p>Hover over the text above to see the underline effect.</p>
+                    </div>
+
+                    <!-- Hover Effect 2 -->
+                    <div class="col-md-4 text-center">
+                        <h3 class="hover-color-change" style="transition: color 0.3s;">Change My Color</h3>
+                        <p>Hover over the text above to change its color.</p>
+                    </div>
+
+                    <!-- Hover Effect 3 -->
+                    <div class="col-md-4 text-center">
+                        <h3 class="hover-scale" style="transition: transform 0.3s;">Scale Me Up</h3>
+                        <p>Hover over the text above to scale it up.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </t>
+    </template>
+</odoo>

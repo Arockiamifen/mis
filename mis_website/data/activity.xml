@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+<!--    #Design Manager Notification-->
+    <record id="send_notification_wire_diagram_dm_activity" model="mail.activity.type">
+        <field name="name">Design Manager Notification</field>
+        <field name="res_model">wiring.diagram</field>
+    </record>
+
+<!--    #Project Manager Notification-->
+    <record id="send_notification_wire_diagram_pm_activity" model="mail.activity.type">
+        <field name="name">Project Manager Notification</field>
+        <field name="res_model">wiring.diagram</field>
+    </record>
+
+<!--    # Managing Director Notification-->
+    <record id="send_notification_wire_diagram_md_activity" model="mail.activity.type">
+        <field name="name">Managing Director Notification</field>
+        <field name="res_model">wiring.diagram</field>
+    </record>
+
+<!--    #Design Manager Notification-->
+    <record id="send_notification_cons_diagram_dm_activity" model="mail.activity.type">
+        <field name="name">Design Manager Notification</field>
+        <field name="res_model">cons.equipment.checklist</field>
+    </record>
+
+<!--    #Project Manager Notification-->
+    <record id="send_notification_cons_diagram_pm_activity" model="mail.activity.type">
+        <field name="name">Project Manager Notification</field>
+        <field name="res_model">cons.equipment.checklist</field>
+    </record>
+
+<!--    # Managing Director Notification-->
+    <record id="send_notification_cons_diagram_md_activity" model="mail.activity.type">
+        <field name="name">Managing Director Notification</field>
+        <field name="res_model">cons.equipment.checklist</field>
+    </record>
+
+<!--    # Client Approval Notification for PE or PM-->
+    <record id="send_notification_cons_diagram_client_approval_activity" model="mail.activity.type">
+        <field name="name">Client Approval Notification PE or PM</field>
+        <field name="res_model">cons.equipment.checklist</field>
+    </record>
+
+</odoo>
+
