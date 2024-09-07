@@ -213,12 +213,12 @@
                                     <div class="col">
                                         <select name="semester"
                                                 class="form-control">
-<!--                                                    <t t-foreach="semester"-->
-<!--                                                       t-as="rec">-->
-<!--                                                        <option t-att-value="rec.id">-->
-<!--                                                            <t t-esc="rec.name"/>-->
-<!--                                                        </option>-->
-<!--                                                    </t>-->
+                                                    <t t-foreach="semester"
+                                                       t-as="rec">
+                                                        <option t-att-value="rec.id">
+                                                            <t t-esc="rec.name"/>
+                                                        </option>
+                                                    </t>
                                         </select>
                                     </div>
                                 </div>
@@ -229,9 +229,14 @@
                                         </span>
                                     </label>
                                     <div class="col">
-                                        <select name="department" required="1"
+                                        <select name="department" required="0"
                                                 class="form-control">
-                                            <option></option>
+                                            <t t-foreach="department"
+                                                       t-as="rec">
+                                                        <option t-att-value="rec.id">
+                                                            <t t-esc="rec.name"/>
+                                                        </option>
+                                                    </t>
                                         </select>
                                     </div>
                                 </div>
@@ -245,7 +250,7 @@
                                     <div class="col">
                                         <input id="tongue" type="text"
                                                class="form-control s_website_form_input"
-                                               name="tongue" required="1"/>
+                                               name="tongue" required="0"/>
                                     </div>
                                 </div>
                             </div>
