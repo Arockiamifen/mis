@@ -1,0 +1,13 @@
+
+<!--1)-->
+<!--Scrool  from right to left-->
+<div class="text-center o_colored_level o_animate o_animate_on_scroll o_anim_slide_in
+                    o_anim_from_right o_cc o_cc4 pb48 col-lg-6 pt80 parallax o_animating"
+                style="animation-delay: -0.829997s; --wanim-intensity: 20; background-image: none; visibility: visible;"
+     data-scroll-zone-start="0" data-scroll-zone-end="100" data-scroll-background-ratio="1.5">
+
+    website    :  https://www.gcgc.global/
+
+
+<!-- Picture zoom-->
+    <div class="o_colored_level o_anim_fade_in o_animate o_visible col-lg-7 o_animated" style="animation-delay: 0.3s; animation-name: o_anim_fade_in; animation-play-state: running; visibility: visible;">

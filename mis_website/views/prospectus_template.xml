@@ -4,6 +4,7 @@
 <!--    About MIS-->
     <template id="about_mis" name="About MIS">
         <t t-call="website.layout">
+            <div class="container-fluid mt-2">
             <section
                     class="s_title parallax s_parallax_is_fixed bg-black-50 pt24 pb24"
                     data-vcss="001" data-snippet="s_title"
@@ -19,42 +20,52 @@
                 </div>
             </section>
     <section class="s_table_of_content pt24 pb24 o_cc o_cc1">
-        <div class="container">
+        <div class="container-fluid mt-2">
             <div class="row s_nb_column_fixed">
-                <div class="col-lg-3 s_table_of_content_navbar_wrap s_table_of_content_navbar_sticky s_table_of_content_vertical_navbar d-print-none d-none d-lg-block o_not_editable o_cc o_cc1" data-name="Navbar">
+                <div class="col-lg-2 s_table_of_content_navbar_wrap s_table_of_content_navbar_sticky s_table_of_content_vertical_navbar d-print-none d-none d-lg-block o_not_editable o_cc o_cc1" data-name="Navbar">
                     <div class="s_table_of_content_navbar list-group o_no_link_popover bg-warning rounded-1"
-                        style="top: 76px; max-height: calc(100vh - 96px);"
+                        style="top: 76px; "
                     >
                         <a href="#mis_about_us" class="table_of_content_link list-group-item list-group-item-action py-2 border-0 rounded-0 active">About Us</a>
                         <a href="#mis_oblates" class="table_of_content_link list-group-item list-group-item-action py-2 border-0 rounded-0">OBLATES</a>
                         <a href="#mis_omi_education" class="table_of_content_link list-group-item list-group-item-action py-2 border-0 rounded-0">OMI and Education</a>
                     </div>
                 </div>
-                <div class="col-lg-9 s_table_of_content_main oe_structure oe_empty" data-name="Content">
+
+
+                <div class="col-lg-10 s_table_of_content_main oe_structure oe_empty" data-name="Content">
                     <section class="pb16">
-
-                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                            <h6 class="section-title bg-white text-center text-primary px-3">About Us</h6>
-                            <h2 class="mb-5">Mary Immaculate English Medium School</h2>
+                        <div class="text-center o_colored_level o_animate o_animate_on_scroll o_anim_slide_in
+                            o_anim_from_right o_cc o_cc4 pb48 col-lg-6 pt80 parallax o_animating"
+                                style="animation-delay: -0.829997s; --wanim-intensity: 20; background-image: none; visibility: visible;"
+                                     data-scroll-zone-start="0" data-scroll-zone-end="100" data-scroll-background-ratio="1.5">
+                            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                                <h6 class="section-title bg-white text-center text-primary px-3">About Us</h6>
+                                <h2 class="mb-5">Mary Immaculate English Medium School</h2>
+                            </div>
                         </div>
-
-                        <h2 id="mis_about_us" data-anchor="true">About Us</h2>
-                        <p>
-                            Mary Immaculate E.M. School, Basirhat was started on 11 March 2014 at OMI
-                            Maria Bhavan, with KG 1 as a co-education school to be upgraded every year.
-                            The school was accorded with permanent NOC eum Certificate of Recognition,
-                            Refer, Memo No. 20- SC/AIS/NOC AIS/RTE/COMMTT/55/2019, dated: 24.01.2023 by
-                            the Directorate of School Education, Government of West Bengal. The school follows
-                            the proposed syllabus of ICSE Board, New Delhi. "Mary Immaculate English Medium School",
-                            Basirhat, is a missionary school, which has its mission and vision according to the Gospel values. We take care of our children's all-round education.
-                        </p>
-                        <p>
-                            We are fortunate and blessed with a team of committed teachers and non-teaching staff.
-                            Our parents are a strong support to participate harmoniously to create an educational
-                            experience to anyone in the campus by their dynamic activities with the school staff.
-                            Anyone can witness a variety of activities that keep the class rooms dynamic and cheerful
-                            learning hubs of Mary Immaculate School campus.
-                        </p>
+                        <div class="text-center o_colored_level o_animate o_animate_on_scroll o_anim_slide_in
+                            o_anim_from_right o_cc o_cc4 pb48 col-lg-6 pt80 parallax o_animating"
+                                style="animation-delay: -0.829997s; --wanim-intensity: 20; background-image: none; visibility: visible;"
+                                    data-scroll-zone-start="0" data-scroll-zone-end="100" data-scroll-background-ratio="1.5">
+                            <h2 id="mis_about_us" data-anchor="true">About Us</h2>
+                            <p>
+                                Mary Immaculate E.M. School, Basirhat was started on 11 March 2014 at OMI
+                                Maria Bhavan, with KG 1 as a co-education school to be upgraded every year.
+                                The school was accorded with permanent NOC eum Certificate of Recognition,
+                                Refer, Memo No. 20- SC/AIS/NOC AIS/RTE/COMMTT/55/2019, dated: 24.01.2023 by
+                                the Directorate of School Education, Government of West Bengal. The school follows
+                                the proposed syllabus of ICSE Board, New Delhi. "Mary Immaculate English Medium School",
+                                Basirhat, is a missionary school, which has its mission and vision according to the Gospel values. We take care of our children's all-round education.
+                            </p>
+                            <p>
+                                We are fortunate and blessed with a team of committed teachers and non-teaching staff.
+                                Our parents are a strong support to participate harmoniously to create an educational
+                                experience to anyone in the campus by their dynamic activities with the school staff.
+                                Anyone can witness a variety of activities that keep the class rooms dynamic and cheerful
+                                learning hubs of Mary Immaculate School campus.
+                            </p>
+                        </div>
                     </section>
                     <section class="pb16">
                         <h2 id="mis_oblates" data-anchor="true">OBLATES</h2>
@@ -122,6 +133,7 @@
             </div>
         </div>
     </section>
+            </div>
     </t>
 </template>
 

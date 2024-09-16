@@ -16,7 +16,9 @@
         'data/sequence.xml',
         'data/web_menu.xml',
         'views/program_gallery_view.xml',
+        'views/web_info_view.xml',
         'views/web_video_view.xml',
+        'views/mis_home_template.xml',
         'views/home_template.xml',
         'views/prospectus_template.xml',
         'views/academics_template.xml',
@@ -26,6 +28,7 @@
         'views/student_portal_templates.xml',
         # 'views/template.xml',
         # 'views/nav_bar_template.xml',
+        'views/menu.xml',
 
     ],
 

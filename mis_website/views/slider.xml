@@ -1,0 +1,15 @@
+<div id="newsItem" style="position: absolute; left: 4px; top: -57px; width: 100%;"
+     onmouseover="scrollspeed=0" onmouseout="scrollspeed=cache">
+
+<p class="tnmarqueeTxt">SETC has introduced the new Air-conditioned Seater cum Sleeper Buses from
+    Chennai Tiruvanmiyur to Tiruchendur, Coimbatore and Pollachi and same services available in return also.</p>
+<hr>
+<p class="tnmarqueeTxt">The Hon’ble Chief Minister of Tamilnadu has inaugurated the new Air-conditioned
+    Sleeper Buses, Ultra Deluxe Buses with Toilet facility &amp; Non A/C Sleeper Buses for the Public of Tamilnadu.</p>
+<hr>
+<p class="tnmarqueeTxt">Online Reservation facility for the Air-conditioned Sleeper Buses from
+    Chennai-Salem-Chennai, Chennai-Madurai-Chennai, Chennai-Bodi-Chennai, Chennai-Keezhakarai-Chennai,
+    Chennai-Karur-Chennai, Chennai-Erode-Chennai, Chennai-Sivakasi-Chennai, Chennai-Tirunelveli-Chennai,
+    Coimbatore-Bengaluru-Coimbatore services are available for Online Booking. </p>
+<hr>
+</div>

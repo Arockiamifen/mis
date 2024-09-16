@@ -57,10 +57,6 @@
 
 
 
-		<menuitem id="website_video_menu" name="Web Video"
-              parent="website_configuration_main_menu"
-              action="website_video_action" sequence="20"/>
-
 
 	</data>
 </odoo>

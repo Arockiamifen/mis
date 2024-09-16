@@ -59,27 +59,27 @@
                 </t>
             </div>
             <div id="eventsContainer" class="row mt-4">
-                                                            <div class="col-md-3 text-center">
-                            <div>
-                                <a href="https://relaxripple.in/gallery/8">
-                                    <img src="https://relaxripple.in/storage/events/DnsU7rM4C5qYPtTBU8cOxOwLW5RJzak0hIjFC2Hm.jpg" width="250" height="250"></img>
-                                </a>
-                            </div>
-                            <div class="text-primary">
-                                FOOTBALL MATCH Date:2024-08-16
-                            </div>
-                        </div>
-                                            <div class="col-md-3 text-center">
-                            <div>
-                                <a href="https://relaxripple.in/gallery/7">
-                                    <img src="https://relaxripple.in/storage/events/ap6uDZYfuwhSSjQJNjigchnm6L3ezw0G0beoW54b.jpg" width="250" height="250"></img>
-                                </a>
-                            </div>
-                            <div class="text-primary">
-                                INDEPENDENCE DAY 2024 Date:2024-08-15
-                            </div>
-                        </div>
-                                                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+                        <a href="https://relaxripple.in/gallery/8">
+                            <img src="https://relaxripple.in/storage/events/DnsU7rM4C5qYPtTBU8cOxOwLW5RJzak0hIjFC2Hm.jpg" width="250" height="250"></img>
+                        </a>
+                    </div>
+                    <div class="text-primary">
+                        FOOTBALL MATCH Date:2024-08-16
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+                        <a href="https://relaxripple.in/gallery/7">
+                            <img src="https://relaxripple.in/storage/events/ap6uDZYfuwhSSjQJNjigchnm6L3ezw0G0beoW54b.jpg" width="250" height="250"></img>
+                        </a>
+                    </div>
+                    <div class="text-primary">
+                        INDEPENDENCE DAY 2024 Date:2024-08-15
+                    </div>
+                </div>
+            </div>
     </t>
 </template>
 

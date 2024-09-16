@@ -85,12 +85,7 @@
 		</record>
 
 
-		<menuitem id="website_configuration_main_menu" name="Web Configuration"
-              parent="mis_school_management.university_menu_root" sequence="10"/>
 
-		<menuitem id="website_configuration_gallery_menu" name="Gallery"
-              parent="website_configuration_main_menu"
-              action="website_configuration_gallery_action" sequence="10"/>
 
 
 	</data>

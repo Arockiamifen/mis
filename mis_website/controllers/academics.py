@@ -11,7 +11,7 @@ class mis_academics(http.Controller):
     @http.route('/academic', type='http', auth='public', website=True)
     def academic_mis_cont(self):
         """To redirect to contact page."""
-        return request.render('mis_website.academic')
+        return request.render('mis_website.mis_home_test_page')
 
     @http.route('/student_performance', type='http', auth='public', website=True)
     def mis_student_performance_cont(self):

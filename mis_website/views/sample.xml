@@ -1,100 +1,89 @@
-<nav class="width-navigation table-cell table-right">
-					<ul class="nav navbar-nav menu-main-menu">
-	<li id="menu-item-7296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-7296 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="https://east.dpsbangalore.edu.in/" class="tc-menu-inner">HOME</a></li>
-<span id="magic-line" style="width: 66.7969px; left: 237px; bottom: 50px;"></span><li id="menu-item-7274" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-7274 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="https://east.dpsbangalore.edu.in/about-us/" class="tc-menu-inner">ABOUT US</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu" style="display: none; opacity: 1;">
-	<li id="menu-item-8023" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7943 current_page_item menu-item-8023 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/kkect/" class="tc-megamenu-title">KKECT</a></li>
-	<li id="menu-item-11057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11057 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/school-motto/" class="tc-megamenu-title">SCHOOL MOTTO</a></li>
-	<li id="menu-item-17835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17835 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/school-information-disclosure/" class="tc-megamenu-title">SCHOOL INFORMATION</a></li>
-	<li id="menu-item-11090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11090 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/vision-and-mission/" class="tc-megamenu-title">VISION &amp; MISSION</a></li>
-	<li id="menu-item-15884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15884 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="#" class="tc-megamenu-title">BOARD RESULTS – CLASS 12</a>
-	<ul class="sub-menu" style="display: none; opacity: 1;">
-		<li id="menu-item-18713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18713 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2024/05/GRADE-XII-AISSCE-2024.pdf" class="tc-menu-inner">2024</a></li>
-		<li id="menu-item-18134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18134 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2023/05/Class-XII-AISSCE-2023-DPSB-East.pdf" class="tc-menu-inner">2023</a></li>
-		<li id="menu-item-16777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16777 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2022/07/Class-XII-Results-2021-22.pdf" class="tc-menu-inner">2022</a></li>
-		<li id="menu-item-15883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15883 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2021/08/DPS-EAST-SCHOOL-TOPPERS-2021.pdf" class="tc-menu-inner">2021</a></li>
-		<li id="menu-item-15028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15028 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/board-results-class-12/" class="tc-menu-inner">2020</a></li>
-	</ul><!-- End wrapper ul sub -->
-</li>
-	<li id="menu-item-15885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15885 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="#" class="tc-megamenu-title">BOARD RESULTS – CLASS 10</a>
-	<ul class="sub-menu" style="display: none; opacity: 1;">
-		<li id="menu-item-18712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18712 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2024/05/GRADE-X-AISSCE-2024.pdf" class="tc-menu-inner">2024</a></li>
-		<li id="menu-item-18133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18133 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2023/05/Grade-X-RESULT-2022-23.pdf" class="tc-menu-inner">2023</a></li>
-		<li id="menu-item-16776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16776 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2022/07/Class-X-Results-2021-22.pdf" class="tc-menu-inner">2022</a></li>
-		<li id="menu-item-15897" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15897 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2021/08/DPS-EAST-SCHOOL-TOPPERS-AISSE-2021.pdf" class="tc-menu-inner">2021</a></li>
-		<li id="menu-item-15029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15029 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/board-results-class-10/" class="tc-menu-inner">2020</a></li>
-	</ul><!-- End wrapper ul sub -->
-</li>
-	<li id="menu-item-18137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18137 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="#" class="tc-megamenu-title">CAMBRIDGE RESULTS</a>
-	<ul class="sub-menu" style="display: none;">
-		<li id="menu-item-18138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18138 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2023/05/Cambridge-Results-.pdf" class="tc-menu-inner">2023</a></li>
-	</ul><!-- End wrapper ul sub -->
-</li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-16382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16382 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="#" class="tc-menu-inner">Magazine</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu" style="display: none; opacity: 1;">
-	<li id="menu-item-15331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15331 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/vibrant-vision/" class="tc-megamenu-title">Vibrant Vision</a></li>
-	<li id="menu-item-16383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16383 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/eloquence/" class="tc-megamenu-title">Eloquence</a></li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-8132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8132 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="#" class="tc-menu-inner">ACADEMICS</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu" style="display: none; opacity: 1;">
-	<li id="menu-item-7855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7855 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/cbse-kindergarten/" class="tc-megamenu-title">CBSE PROGRAMME</a>
-	<ul class="sub-menu" style="display: none; opacity: 1;">
-		<li id="menu-item-15420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15420 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/cbse-admissions/" class="tc-menu-inner">CBSE ADMISSIONS</a></li>
-	</ul><!-- End wrapper ul sub -->
-</li>
-	<li id="menu-item-8957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8957 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/cambridge-program/" class="tc-megamenu-title">CAMBRIDGE PROGRAM</a></li>
-	<li id="menu-item-9010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9010 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/nios/" class="tc-megamenu-title">NIOS PROGRAMME</a></li>
-	<li id="menu-item-17124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17124 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/ib-programme/" class="tc-megamenu-title">IB PROGRAMME</a></li>
-	<li id="menu-item-9410" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9410 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="#" class="tc-megamenu-title">APPLICATION FORMS</a>
-	<ul class="sub-menu" style="display: none; opacity: 1;">
-		<li id="menu-item-9403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9403 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/cbse-application-form/" class="tc-menu-inner">CBSE Application Form</a></li>
-		<li id="menu-item-9402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9402 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/igcse-application-form/" class="tc-menu-inner">Cambridge Application Form</a></li>
-	</ul><!-- End wrapper ul sub -->
-</li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-7384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7384 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="https://east.dpsbangalore.edu.in/facilities/" class="tc-menu-inner">FACILITIES</a></li>
-<li id="menu-item-7857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7857 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="#" class="tc-menu-inner">ADMISSIONS</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu" style="display: none;">
-	<li id="menu-item-15421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15421 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/cbse-admissions/" class="tc-megamenu-title">CBSE ADMISSIONS</a></li>
-	<li id="menu-item-15419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15419 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/admissions/" class="tc-megamenu-title">CAMBRIDGE ADMISSIONS</a></li>
-	<li id="menu-item-9025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9025 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/nios-admissions/" class="tc-megamenu-title">NIOS ADMISSIONS</a></li>
-	<li id="menu-item-18112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18112 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/ib-admissions/" class="tc-megamenu-title">IB ADMISSIONS</a></li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-18651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18651 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="#" class="tc-menu-inner">ALUMNI</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu">
-	<li id="menu-item-18652" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18652 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/alumni-guidance/" class="tc-megamenu-title">ALUMNI GUIDANCE</a></li>
-	<li id="menu-item-18653" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18653 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/success-stories/" class="tc-megamenu-title">SUCCESS STORIES</a></li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-7386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7386 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="https://east.dpsbangalore.edu.in/student-life/" class="tc-menu-inner">STUDENT LIFE</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu">
-	<li id="menu-item-17680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17680 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/publications/" class="tc-megamenu-title">PUBLICATIONS</a></li>
-	<li id="menu-item-16900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16900 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/anti-bullying-policies/" class="tc-megamenu-title">ANTI-BULLYING POLICIES</a></li>
-	<li id="menu-item-18289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18289 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="#" class="tc-megamenu-title">SPORTS NEWSLETTER</a>
-	<ul class="sub-menu">
-		<li id="menu-item-18298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18298 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/sports-newsletter-2023/" class="tc-menu-inner">2023</a></li>
-		<li id="menu-item-18288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18288 tc-menu-item tc-menu-depth-2 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/sports-newsletter-2022/" class="tc-menu-inner">2022</a></li>
-	</ul><!-- End wrapper ul sub -->
-</li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-11022" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11022 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="#" class="tc-menu-inner">RESOURCES</a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
-<ul class="sub-menu">
-	<li id="menu-item-9887" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9887 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="http://east.dpsbangalore.edu.in/category/dps-blog/" class="tc-megamenu-title">BLOG</a></li>
-	<li id="menu-item-18877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18877 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/photo-gallery/" class="tc-megamenu-title">PHOTO GALLERY</a></li>
-	<li id="menu-item-18617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18617 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="https://east.dpsbangalore.edu.in/video-gallery/" class="tc-megamenu-title">VIDEO GALLERY</a></li>
-	<li id="menu-item-11021" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11021 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a target="_blank" href="https://entrar.in/login/tc/1848" class="tc-megamenu-title">TRANSFER CERTIFICATE</a></li>
-	<li id="menu-item-16502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16502 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a target="_blank" href="https://www.mindler.com/schools/DPSEAST2023" class="tc-megamenu-title">CAREER COUNSELLING</a></li>
-	<li id="menu-item-12454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12454 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2023/07/Book-List-2023-2024.pdf" class="tc-megamenu-title">BOOK LIST</a></li>
-	<li id="menu-item-12566" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12566 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a target="_blank" href="https://east.dpsbangalore.edu.in/wp-content/uploads/2024/06/calendar-dpse-2024-25.pdf" class="tc-megamenu-title">SCHOOL CALENDAR</a></li>
-	<li id="menu-item-15647" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15647 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a target="_blank" href="https://entrar.in/login/login" class="tc-megamenu-title">ENTRAR</a></li>
-</ul><!-- End wrapper ul sub -->
-</li>
-<li id="menu-item-7387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7387 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default last-menu-item"><a href="https://east.dpsbangalore.edu.in/contact-us/" class="tc-menu-inner">CONTACT US</a></li>
-</ul>
-<!--</div>-->				</nav>
+<div class="col-lg-10 s_table_of_content_main oe_structure oe_empty o_colored_level" data-name="Content" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                    <section class="pb16 o_colored_level" style="background-image: none;">
+
+                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">About Us</h6>
+                            <h2 class="mb-5" id="table_of_content_heading_1725893044400_59" data-anchor="true">Mary Immaculate English Medium School</h2>
+                        </div>
+
+                        <h2 id="table_of_content_heading_1725893044401_60" data-anchor="true">About Us</h2>
+                        <p>
+                            Mary Immaculate E.M. School, Basirhat was started on 11 March 2014 at OMI
+                            Maria Bhavan, with KG 1 as a co-education school to be upgraded every year.
+                            The school was accorded with permanent NOC eum Certificate of Recognition,
+                            Refer, Memo No. 20- SC/AIS/NOC AIS/RTE/COMMTT/55/2019, dated: 24.01.2023 by
+                            the Directorate of School Education, Government of West Bengal. The school follows
+                            the proposed syllabus of ICSE Board, New Delhi. "Mary Immaculate English Medium School",
+                            Basirhat, is a missionary school, which has its mission and vision according to the Gospel values. We take care of our children's all-round education.
+                        </p>
+                        <p>
+                            We are fortunate and blessed with a team of committed teachers and non-teaching staff.
+                            Our parents are a strong support to participate harmoniously to create an educational
+                            experience to anyone in the campus by their dynamic activities with the school staff.
+                            Anyone can witness a variety of activities that keep the class rooms dynamic and cheerful
+                            learning hubs of Mary Immaculate School campus.
+                        </p>
+                    </section>
+                    <section class="pb16 o_colored_level" style="background-image: none;">
+                        <h2 id="table_of_content_heading_1725893044402_61" data-anchor="true">OBLATES</h2>
+                        <h4 class="text-center">A heart as big as the world.</h4>
+                        <p>
+                            Eugene de Mazenod was born into a noble family of Aix-en-Provence
+                            in southern France in 1782, but his family had to flee as refugees
+                            during the French Revolution. In 1802 he returned to France and embraced a
+                            frivolous social life. However, on Good Friday 1807, before the crucifix in a
+                            church in Aix, the young man experienced a profound conversion that made him
+                            understand the spiritual and material plight of France and the Church. Within a year he entered the seminary and was ordained in 1811.
+                        </p>
+                        <h4>Professional themes</h4>
+                        <p>
+                            Father de Mazenod set about rebuilding a world of Christian values. He preached
+                            in villages with passion, tirelessly bringing the Word of God and the sacraments
+                            to all, visiting prisoners and offering the poor a renewed sense of dignity. In 1816
+                            other priests, inspired by his vision and energy, joined him and in 1826 the Missionary
+                            Oblates of Mary Immaculate was formally approved by Pope Leo XII. De Mazenod, deemed to
+                            have had a heart as big as the world', sent his growing corps of Oblates to mission in Canada,
+                            Sri Lanka, South Africa and in various parts of Europe.
+                        </p>
+                        <br>
+                        <p>
+                            Bishop Eugene de Mazenod died on May 21, 1861 and the Church recognised his life of dedication,
+                            virtue and outreach to the most abandoned when, on December 3, 1995. Pope John Paul 11 officially
+                            declared him a saint. More than 3,700 Oblate priests and brothers, supported by many Oblate Lay Associates,
+                            continue to mission on every continent of the world. His charism lives on in them.
+                        </p>
+                    </section>
+                    <section class="pb16">
+                        <h2 id="table_of_content_heading_1725893044403_62" data-anchor="true">OMI and Education</h2>
+                        <h4 class="text-center">A heart as big as the world.</h4>
+                        <p>
+                            The Society of Oblates of Mary Immaculate, a Catholic Christian Religious Order
+                            founded by Saint Eugene de Mazenod in 1816, has been active in the field of education
+                            throughout the world since its origin. Worldwide, the Oblates are responsible for 86
+                            Educational Institutions in 63 countries. These Oblates Educational Institutions
+                            engage the efforts of approximately 1000's of teachers, educating approximately 30,000 students.
+                            In India, The Society of Oblates has founded 18 Primary and Middle Schools, 18 High Schools with 215
+                            teachers, educating about 5000 students belonging to every social class, community, and linguistic
+                            group. These Institutions are part of the Catholic Church's effort to share in the country's
+                            educational undertaking. The Oblate School in India aims at the intellectual, integral,
+                            personal formation of the children and youth. To accomplish these, special efforts are made:
+                        </p>
+                        <h4>Professional themes</h4>
+                        <p>
+                            Father de Mazenod set about rebuilding a world of Christian values. He preached
+                            in villages with passion, tirelessly bringing the Word of God and the sacraments
+                            to all, visiting prisoners and offering the poor a renewed sense of dignity. In 1816
+                            other priests, inspired by his vision and energy, joined him and in 1826 the Missionary
+                            Oblates of Mary Immaculate was formally approved by Pope Leo XII. De Mazenod, deemed to
+                            have had a heart as big as the world', sent his growing corps of Oblates to mission in Canada,
+                            Sri Lanka, South Africa and in various parts of Europe.
+                        </p>
+                        <br>
+                        <p>
+                            Bishop Eugene de Mazenod died on May 21, 1861 and the Church recognised his life of dedication,
+                            virtue and outreach to the most abandoned when, on December 3, 1995. Pope John Paul 11 officially
+                            declared him a saint. More than 3,700 Oblate priests and brothers, supported by many Oblate Lay Associates,
+                            continue to mission on every continent of the world. His charism lives on in them.
+                        </p>
+                    </section>
+                </div>

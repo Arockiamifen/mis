@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="mis_home_page" name="MIS Website Page">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+
+                <t t-if="banner">
+                    <div class="row">
+                        <div style="background-color: #8080ff;" class="hov_hi">
+                            <marquee ><t t-out="banner.info"/></marquee>
+                        </div>
+                    </div>
+                </t>
+      <section class="s_three_columns o_cc o_cc3 pt0 pb72 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+<!--        <div class="container" >-->
+          <div class="row " height="70%">
+              <h3 style="background-color: #00FFFF;" class="display-2 facility-text hov_hi"><span>Craft</span> your Childrens Life Brighter...</h3>
+            <div class="col-md-3 p-0 card hov_hi text-dark" style="border-color: blue;">
+                <h5 style="color:#3f4475;"><u>Notice Or Announcement</u></h5>
+                    <marquee width="100%" class="fixed-marquee2" height="100%" behavior="scroll" direction="down" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                        <t t-out="notices"/>
+                    </marquee>
+            </div>
+<!--              Slide Section-->
+            <div class="col-lg-6 s_col_no_bgcolor pt16 pb16">
+                <section class="s_carousel_wrapper s_custom_snippet" data-vxml="001" data-snippet="s_carousel" data-name="Custom Carousel">
+        <div class="s_carousel carousel slide s_carousel_default" data-bs-interval="3000" id="myCarousel1726444364485" style="background-image: none;">
+
+            <ol class="carousel-indicators o_we_no_overlay">
+                <li data-bs-slide-to="0" data-bs-target="#myCarousel1726444364485" class="active" aria-current="true"></li>
+                <li data-bs-slide-to="1" data-bs-target="#myCarousel1726444364485" class=""></li>
+                <li data-bs-slide-to="2" data-bs-target="#myCarousel1726444364485" class=""></li>
+                <li data-bs-target="#myCarousel1726444364485" data-bs-slide-to="3" class=""></li>
+                <li data-bs-target="#myCarousel1726444364485" data-bs-slide-to="4" class=""></li>
+                <li data-bs-target="#myCarousel1726444364485" data-bs-slide-to="5" class=""></li>
+                <li data-bs-target="#myCarousel1726444364485" data-bs-slide-to="6" class=""></li>
+                <li data-bs-target="#myCarousel1726444364485" data-bs-slide-to="7" class=""></li>
+                <li data-bs-target="#myCarousel1726444364485" data-bs-slide-to="8" class=""></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;); position: relative; min-height: 532.711px;" data-name="Slide" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/04_001&quot;,&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;animated&quot;:&quot;true&quot;}"><div class="o_we_shape o_web_editor_Airy_04_001 o_we_animated" style=""></div>
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 o_colored_level">
+                                <h2 class="display-3-fs o_default_snippet_text">Slide Title</h2>
+                                <p class="lead o_default_snippet_text">Use this snippet to presents your content in a slideshow-like format. Don't write about products or services here, write about solutions.</p>
+                                <p>
+                                    <a href="/contactus" class="btn btn-primary o_default_snippet_text">Contact us</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;); position: relative; min-height: 532.711px;" data-name="Slide" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/05_001&quot;,&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;animated&quot;:&quot;true&quot;}"><div class="o_we_shape o_web_editor_Airy_05_001 o_we_animated"></div>
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 o_colored_level">
+                                <h2 class="display-3-fs o_default_snippet_text">Slide Title</h2>
+                                <p class="lead o_default_snippet_text">Use this snippet to presents your content in a slideshow-like format. Don't write about products or services here, write about solutions.</p>
+                                <p>
+                                    <a href="/contactus" class="btn btn-primary o_default_snippet_text">Contact us</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item pt152 pb152 o_colored_level oe_img_bg o_bg_img_center active carousel-item-start" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_1&quot;); position: relative; min-height: 532.711px;" data-name="Slide" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;animated&quot;:&quot;true&quot;}"><div class="o_we_shape o_web_editor_Airy_03_001 o_we_animated"></div>
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 o_colored_level">
+                                <h2 class="display-3-fs o_default_snippet_text">Slide Title</h2>
+                                <p class="lead o_default_snippet_text">Use this snippet to presents your content in a slideshow-like format. Don't write about products or services here, write about solutions.</p>
+                                <p>
+                                    <a href="/contactus" class="btn btn-primary o_default_snippet_text">Contact us</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg o_bg_img_center carousel-item-next carousel-item-start" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;); position: relative; min-height: 532.711px;" data-name="Slide" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/12_001&quot;,&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;animated&quot;:&quot;true&quot;}"><div class="o_we_shape o_web_editor_Airy_12_001 o_we_animated"></div>
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center pt48 pb40 o_colored_level">
+                                <h2 class="display-3-fs o_default_snippet_text">Clever Slogan</h2>
+                                <div class="s_hr pt8 pb24" data-snippet="s_hr" data-name="Separator">
+                                    <hr class="w-25 mx-auto" style="border-top-width: 1px; border-top-style: solid;"></hr>
+                                </div>
+                                <p class="lead o_default_snippet_text">Storytelling is powerful.<br></br> It draws readers in and engages them.</p>
+                                <p><a href="/" class="btn btn-primary o_default_snippet_text">Start your journey</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;); min-height: 532.711px;" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                <h2><font class="display-3-fs o_default_snippet_text" style="background-color: rgb(255, 255, 255);">Edit this title</font></h2>
+                                <h4><font style="background-color: rgb(255, 255, 255);" class="o_default_snippet_text">Good writing is simple, but not simplistic.</font></h4>
+                                <p><br></br></p>
+                                <p class="o_default_snippet_text">Good copy starts with understanding how your product or service helps your customers. Simple words communicate better than big words and pompous language.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;); min-height: 532.711px;" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                <h2><font class="display-3-fs o_default_snippet_text" style="background-color: rgb(255, 255, 255);">Edit this title</font></h2>
+                                <h4><font style="background-color: rgb(255, 255, 255);" class="o_default_snippet_text">Good writing is simple, but not simplistic.</font></h4>
+                                <p><br></br></p>
+                                <p class="o_default_snippet_text">Good copy starts with understanding how your product or service helps your customers. Simple words communicate better than big words and pompous language.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;); min-height: 532.711px;" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                <h2><font class="display-3-fs o_default_snippet_text" style="background-color: rgb(255, 255, 255);">Edit this title</font></h2>
+                                <h4><font style="background-color: rgb(255, 255, 255);" class="o_default_snippet_text">Good writing is simple, but not simplistic.</font></h4>
+                                <p><br></br></p>
+                                <p class="o_default_snippet_text">Good copy starts with understanding how your product or service helps your customers. Simple words communicate better than big words and pompous language.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;); min-height: 532.711px;" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                <h2><font class="display-3-fs o_default_snippet_text" style="background-color: rgb(255, 255, 255);">Edit this title</font></h2>
+                                <h4><font style="background-color: rgb(255, 255, 255);" class="o_default_snippet_text">Good writing is simple, but not simplistic.</font></h4>
+                                <p><br></br></p>
+                                <p class="o_default_snippet_text">Good copy starts with understanding how your product or service helps your customers. Simple words communicate better than big words and pompous language.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item pt128 pb128 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;); min-height: 532.711px;" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                <h2><font class="display-3-fs o_default_snippet_text" style="background-color: rgb(255, 255, 255);">Edit this title</font></h2>
+                                <h4><font style="background-color: rgb(255, 255, 255);" class="o_default_snippet_text">Good writing is simple, but not simplistic.</font></h4>
+                                <p><br></br></p>
+                                <p class="o_default_snippet_text">Good copy starts with understanding how your product or service helps your customers. Simple words communicate better than big words and pompous language.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#myCarousel1726444364485">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden o_default_snippet_text">Previous</span>
+            </a>
+            <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#myCarousel1726444364485">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden o_default_snippet_text">Next</span>
+            </a>
+        </div>
+    </section>
+            </div>
+            <div class="col-lg-3 s_col_no_bgcolor pt16 pb16">
+              <div class="card bg-white h-100">
+                  <img class="card-img-top" src="https://relaxripple.in/landing/assets/newExtra/invetory.jpg" alt="" loading="lazy" data-original-id="73" data-original-src="https://relaxripple.in/landing/assets/newExtra/invetory.jpg" data-mimetype="image/jpeg" style=""></img>
+                <div class="card-body">
+                  <h5 style="color:#3f4475;">Today's <strong>Birthday</strong>-<t t-out="today_date"></t></h5>
+                    <marquee width="100%" height="50%" behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                        <b>Today No One's Birthday</b>
+                    </marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--        </div>-->
+      </section>
+
+<!--                Our vission-->
+                      <section class="s_text_image pt184 pb64 o_colored_level" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/08&quot;,&quot;flip&quot;:[]}" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+        <div class="o_we_shape o_web_editor_Origins_08"></div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="pt16 pb16 col-lg-8 o_colored_level">
+                <div class="x_wd_shape_circle">
+                            <video autoplay="autoplay" loop="loop" muted="muted" class="img-thumbnail" id="crm_dashboard">
+                                <source src="/mis_website/static/src/img/GTfkd9ZHwT8MyC6u3dgBlLvZau3bwlidu1Q4LTtE.mp4" type="video/mp4"></source>
+                            </video>
+                        </div>
+<!--                <img src="/web_editor/shape/theme_odoo_experts/s_image_text.svg?c1=%23278F84" class="img img-fluid mx-auto" alt="" style="padding: 32px !important;" loading="lazy"></img>-->
+            </div>
+            <div class="pt16 pb16 col-lg-4 o_colored_level">
+              <h2 class="o_default_snippet_text">
+        Our vision
+    </h2>
+              <p>
+                <br></br>
+              </p>
+              <p class="o_default_snippet_text">
+        We see our role as that of a legal partner responsible for constantly finding practical and pragmatic solutions that are adapted to our clients' needs.
+    </p>
+              <p>
+                <a href="#" class="btn btn-primary mb-2 flat o_default_snippet_text">Discover more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Littigatiomn-->
+                      <section class="s_media_list o_cc pt120 pb120 o_cc4 o_colored_level" data-vcss="001" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/09_001&quot;,&quot;flip&quot;:[]}" data-snippet="s_media_list" data-name="Media List" style="background-image: none;">
+        <div class="o_we_shape o_web_editor_Origins_09_001"></div>
+        <div class="container">
+          <div class="row s_nb_column_fixed s_col_no_bgcolor">
+            <div class="s_media_list_item pt16 pb16 col-lg-8" data-name="Media item">
+              <div class="row s_col_no_resize s_col_no_bgcolor no-gutters align-items-center o_cc o_cc1 flex-row-reverse shadow rounded o_colored_level">
+                <div class="col-lg-4 align-self-stretch s_media_list_img_wrapper">
+                    <img src="/web/image/website.s_media_list_default_image_1" class="s_media_list_img h-100 w-100" alt="" loading="lazy" data-original-id="1113" data-original-src="/theme_odoo_experts/static/src/img/snippets/s_media_list_1.jpg" data-mimetype="image/jpeg" style=""></img>
+                </div>
+                <div class="col-lg-8 s_media_list_body">
+                  <h3 class="o_default_snippet_text"><span class="text-o-color-1 o_default_snippet_text">1.</span> Litigation
+    </h3>
+                  <p class="o_default_snippet_text">
+        Litigation is our core-business. Our lawyers have been involved in many high-profile cases for 20 years.
+    </p>
+                </div>
+              </div>
+            </div>
+            <div class="s_media_list_item pt24 pb24 col-lg-8 offset-lg-2" data-name="Media item">
+              <div class="row s_col_no_resize s_col_no_bgcolor no-gutters align-items-center o_cc flex-row-reverse shadow rounded o_cc5 o_colored_level">
+                <div class="col-lg-4 align-self-stretch s_media_list_img_wrapper">
+                    <img src="/web/image/website.s_media_list_default_image_2" class="s_media_list_img h-100 w-100" alt="" loading="lazy" data-original-id="1114" data-original-src="/theme_odoo_experts/static/src/img/snippets/s_media_list_2.jpg" data-mimetype="image/jpeg" style=""></img>
+                </div>
+                <div class="col-lg-8 s_media_list_body">
+                  <h3 class="o_default_snippet_text"><span class="text-o-color-1 o_default_snippet_text">2.</span> Arbitration
+    </h3>
+                  <p class="o_default_snippet_text">
+        Over the past years, our lawyers have gained significant experience in arbitration, both as counsel as well as arbitrators.
+    </p>
+                </div>
+              </div>
+            </div>
+            <div class="s_media_list_item pt16 pb16 col-lg-8 offset-lg-4" data-name="Media item">
+              <div class="row s_col_no_resize s_col_no_bgcolor no-gutters align-items-center o_cc o_cc1 flex-row-reverse shadow rounded o_colored_level">
+                <div class="col-lg-4 align-self-stretch s_media_list_img_wrapper">
+                    <img src="/web/image/website.s_media_list_default_image_3" class="s_media_list_img h-100 w-100" alt="" loading="lazy" data-original-id="1115" data-original-src="/theme_odoo_experts/static/src/img/snippets/s_media_list_3.jpg" data-mimetype="image/jpeg" style=""></img>
+                </div>
+                <div class="col-lg-8 s_media_list_body">
+                  <h3 class="o_default_snippet_text"><span class="text-o-color-1 o_default_snippet_text">3.</span> Mediation
+    </h3>
+                  <p class="o_default_snippet_text">
+        In mediation, the parties find a solution for their conflict, with the assistance of a mediator who has no decision-making power.
+    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s_title pb40 pt72 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+        <div class="container s_allow_columns">
+          <h1 style="text-align: center;">
+            <font style="font-size: 62px;" class="shadow-sm bg-rningwa rounded-1 p-2 m-3 bg-warning">SCHOOL FACILITIES</font> </h1>
+        </div>
+      </section>
+      <section class="s_masonry_block" data-vcss="001" data-snippet="s_masonry_block" data-name="Masonry">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center pb224 pt224 oe_img_bg o_bg_img_center o_colored_level" data-name="Block" style="background-image: url(&quot;/web/image/website.s_masonry_block_default_image_1&quot;);">
+              <p>
+                  <br></br>
+              </p>
+            </div>
+            <div class="col-lg-6 s_col_no_resize">
+              <div class="row h-100">
+                <div class="col-lg-6 pt24 pb8 text-center o_cc o_cc2,o_cc1 o_colored_level" data-name="Block" style="background-image: none;">
+                  <span class="fa fa-star fa-2x mb-4"></span>
+                  <h3 class="o_default_snippet_text">
+                    Increased Visibility
+                  </h3>
+                  <p class="o_default_snippet_text">
+        Increase Visitor retention. Customer engagement on a website with virtual tour is 5 times longer compared to a site without it.
+    </p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center o_cc o_cc3,o_cc1 o_colored_level" data-name="Block" style="background-image: none;">
+                  <span class="fa fa-tag fa-2x mb-4"></span>
+                  <h3 class="o_default_snippet_text">
+        No fixed fees
+    </h3>
+                  <p class="o_default_snippet_text">
+        At Real Estate Agency we have fixed price fees. This means we only charge when your home sale is confirmed.
+    </p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center o_cc o_cc4,o_cc1 o_colored_level" data-name="Block" style="background-image: none;">
+                  <span class="fa fa-camera fa-2x mb-4"></span>
+                  <h3 class="o_default_snippet_text">
+        Pro Photo Shoot
+    </h3>
+                  <p class="o_default_snippet_text">
+        They say an image is worth a thousand words and we know you know how important it is to have the best photography.
+    </p>
+                </div>
+                <div class="col-lg-6 pt24 pb8 text-center o_cc o_cc2,o_cc1 o_colored_level" data-name="Block" style="background-image: none;">
+                  <span class="fa fa-check fa-2x mb-4"></span>
+                  <h3 class="o_default_snippet_text">
+        Premium Quality
+    </h3>
+                  <p class="o_default_snippet_text">
+        We are committed to delivering high quality services that enhance your brand by allowing visitors to interact virtually.
+    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+                <section class="s_numbers o_cc pt24 pb24 o_cc3 o_colored_level" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Blobs/11&quot;,&quot;flip&quot;:[&quot;x&quot;]}" data-snippet="s_numbers" data-name="Numbers" style="background-image: none;">
+        <div class="o_we_shape o_web_editor_Blobs_11 o_we_flip_x"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 text-center pt24 pb24 o_colored_level">
+              <span class="s_number display-4 o_default_snippet_text">12</span>
+                <br></br>
+              <h6 class="o_default_snippet_text">
+        Faculties
+    </h6>
+            </div>
+            <div class="col-lg-3 text-center pt24 pb24 o_colored_level">
+              <span class="s_number display-4 o_default_snippet_text">45</span>
+                <br></br>
+              <h6 class="o_default_snippet_text">
+        Nationalities
+    </h6>
+            </div>
+            <div class="col-lg-3 text-center pt24 pb24 o_colored_level">
+              <span class="s_number display-4 o_default_snippet_text">8</span>
+                <br></br>
+              <h6 class="o_default_snippet_text">
+        Libraries
+    </h6>
+            </div>
+            <div class="col-lg-3 text-center pt24 pb24 o_colored_level">
+              <span class="s_number display-4 o_default_snippet_text">
+        16,456
+    </span>
+                <br></br>
+              <h6 class="o_default_snippet_text">
+        Students
+    </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s_company_team pt120 pb120 o_colored_level" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/02_001&quot;,&quot;flip&quot;:[&quot;x&quot;]}" data-snippet="s_company_team" data-name="Team" style="background-image: none;">
+        <div class="o_we_shape o_web_editor_Origins_02_001 o_we_flip_x o_third_extra_shape_mapping"></div>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-6 pt24 pb24 o_colored_level">
+              <div class="row s_col_no_resize s_col_no_bgcolor">
+                <div class="col-lg-4 pb16 o_not_editable">
+                    <img alt="" src="/web/image/website.s_company_team_image_1" class="img-fluid rounded-circle mx-auto" loading="lazy" data-original-id="86" data-original-src="/website/static/src/img/snippets_demo/s_team_member_1.png" data-mimetype="image/png" style=""></img>
+                </div>
+                <div class="col-lg-8">
+                  <h4 class="o_default_snippet_text">Tony Fred, CEO</h4>
+                  <p class="o_default_snippet_text">
+                                Founder and chief visionary, Tony is the driving force behind the company. He loves
+                                to keep his hands full by participating in the development of the software,
+                                marketing, and customer experience strategies.
+                            </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 pt24 pb24 o_colored_level">
+              <div class="row s_col_no_resize s_col_no_bgcolor">
+                <div class="col-lg-4 pb16 o_not_editable">
+                    <img alt="" src="/web/image/website.s_company_team_image_2" class="img-fluid rounded-circle mx-auto" loading="lazy" data-original-id="87" data-original-src="/website/static/src/img/snippets_demo/s_team_member_2.png" data-mimetype="image/png" style=""></img>
+                </div>
+                <div class="col-lg-8">
+                  <h4 class="o_default_snippet_text">Mich Stark, COO</h4>
+                  <p class="o_default_snippet_text">Mich loves taking on challenges. With his multi-year experience as Commercial Director in the software industry, Mich has helped the company to get where it is today. Mich is among the best minds.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 pt24 pb24 o_colored_level">
+              <div class="row s_col_no_resize s_col_no_bgcolor">
+                <div class="col-lg-4 pb16 o_not_editable">
+                    <img alt="" src="/web/image/website.s_company_team_image_3" class="img-fluid rounded-circle mx-auto" loading="lazy" data-original-id="88" data-original-src="/website/static/src/img/snippets_demo/s_team_member_3.png" data-mimetype="image/png" style=""></img>
+                </div>
+                <div class="col-lg-8">
+                  <h4 class="o_default_snippet_text">Aline Turner, CTO</h4>
+                  <p class="o_default_snippet_text">Aline is one of the iconic people in life who can say they love what they do. She mentors 100+ in-house developers and looks after the community of thousands of developers.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 pt24 pb24 o_colored_level">
+              <div class="row s_col_no_resize s_col_no_bgcolor">
+                <div class="col-lg-4 pb16 o_not_editable">
+                    <img alt="" src="/web/image/website.s_company_team_image_4" class="img-fluid rounded-circle mx-auto" loading="lazy" data-original-id="89" data-original-src="/website/static/src/img/snippets_demo/s_team_member_4.png" data-mimetype="image/png" style=""></img>
+                </div>
+                <div class="col-lg-8">
+                  <h4 class="o_default_snippet_text">Iris Joe, CFO</h4>
+                  <p class="o_default_snippet_text">Iris, with her international experience, helps us easily understand the numbers and improves them. She is determined to drive success and delivers her professional acumen to bring the company to the next level.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            </div>
+        </t>
+    </template>
+
+
+</odoo>
+
