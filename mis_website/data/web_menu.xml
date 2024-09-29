@@ -15,67 +15,12 @@
         <!--        Prospectus-->
         <record id="prospectus_menu" model="website.menu">
             <field name="name">Prospectus</field>
-            <field name="url"></field>
+            <field name="url">/prospectus</field>
             <field name="parent_id" search="[('parent_id', '=', False), ('website_id', '=', 1)]"/>
             <field name="sequence" type="int">20</field>
             <field name="website_id" ref="website.default_website"/>
         </record>
-        <record id="about_mis_menu" model="website.menu">
-            <field name="name">About MIS</field>
-            <field name="url">/about_mis</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">10</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="oblates_menu" model="website.menu">
-            <field name="name">OBLATES</field>
-            <field name="url">/mis_oblates</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">20</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="omi_and_edu_menu" model="website.menu">
-            <field name="name">OMI and Education</field>
-            <field name="url">/omi_and_education</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">30</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="vision_and_mission_menu" model="website.menu">
-            <field name="name">Vision and Mission</field>
-            <field name="url">/mission_and_vission</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">40</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="governing_menu" model="website.menu">
-            <field name="name">Governing Body Members</field>
-            <field name="url">/govering_body_members</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">50</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="academic_council_menu" model="website.menu">
-            <field name="name">Academic Council</field>
-            <field name="url">/academic_council</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">60</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="core_commitee_menu" model="website.menu">
-            <field name="name">Core Committee</field>
-            <field name="url">/core_commitee</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">70</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-        <record id="alumini_menu" model="website.menu">
-            <field name="name">Alumni / AE Association</field>
-            <field name="url">/alumni_ae_associates</field>
-            <field name="parent_id" ref="mis_website.prospectus_menu"/>
-            <field name="sequence" type="int">80</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
+
 
 
 <!-- Academics-->

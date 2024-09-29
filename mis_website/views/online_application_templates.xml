@@ -117,6 +117,19 @@
                                                required="1"/>
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <label for="adhar">
+                                        <span class="s_website_form_label_content">
+                                            Adhar Number
+                                        </span>
+                                    </label>
+                                    <div class="col">
+                                        <input id="adhar" name="text"
+                                               type="text"
+                                               class="form-control s_website_form_input"
+                                               required="1"/>
+                                    </div>
+                                </div>
                             </div>
                             <br/>
                             <div class="row">

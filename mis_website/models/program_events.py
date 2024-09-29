@@ -14,19 +14,26 @@ class ProgramEventsGallery(models.Model):
     _name = 'program.gallery'
     _inherit = ['mail.thread', 'mail.activity.mixin']
 
-    name = fields.Char('Name', readonly=True, default='New')
+    name = fields.Char('Name', readonly=True)
     date = fields.Date('Date',default=lambda self: fields.Datetime.now(), readonly=True)
     user_id = fields.Many2one('res.users', 'Created By', default=lambda self: self.env.user, readonly=True)
     event_id = fields.Many2one('program.events', 'Event')
     photo_ids = fields.One2many('program.gallery.photo','gallery_id', 'Photos')
     remarks = fields.Char('Remarks')
 
-    @api.model_create_multi
-    def create(self, vals_list):
-        for vals in vals_list:
-            if 'name' not in vals or vals['name'] == 'New':
-                vals['name'] = self.env['ir.sequence'].next_by_code('program.gallery') or _('New')
-        return super().create(vals_list)
+    def get_random_photos(self):
+        print('SELFFFFFFFFFF',self)
+        if self.photo_ids:
+            print('SSSSSAAAAAAAAAAAAAAA',self.photo_ids)
+            print('SSSSSAAAAAAAAAAAAAAA',self.photo_ids[:4])
+            return self.photo_ids[:4]
+
+    # @api.model_create_multi
+    # def create(self, vals_list):
+    #     for vals in vals_list:
+    #         if 'name' not in vals or vals['name'] == 'New':
+    #             vals['name'] = self.env['ir.sequence'].next_by_code('program.gallery') or _('New')
+    #     return super().create(vals_list)
 
 
 class ProgramEventsGallery(models.Model):
@@ -38,7 +45,7 @@ class ProgramEventsGallery(models.Model):
     place = fields.Char('Place')
     date = fields.Date(related='gallery_id.date', string='Date')
     event_id = fields.Many2one(related='gallery_id.event_id', string='Event')
-    photo = fields.Image(string="Image", max_width=80, max_height=50)
+    photo = fields.Binary(string="Image", max_width=80, max_height=50, attachment=True)
     file_name = fields.Char('File Name')
 
 

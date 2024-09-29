@@ -8,10 +8,10 @@ from odoo.http import request
 class mis_prospectus(http.Controller):
     """Controller for taking Prospectus"""
 
-    @http.route('/about_mis', type='http', auth='public', website=True)
-    def about_mis_cont(self):
+    @http.route('/prospectus', type='http', auth='public', website=True)
+    def about_mis_prospectus_cont(self):
         """To redirect to contact page."""
-        return request.render('mis_website.about_mis')
+        return request.render('mis_website.mis_propectus_page')
 
     @http.route('/mis_oblates', type='http', auth='public', website=True)
     def mis_oblates_cont(self):

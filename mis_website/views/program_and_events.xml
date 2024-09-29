@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    About MIS
+<!--    About MIS-->
     <template id="program_events_gallery" name="Program and Events">
         <t t-call="website.layout">
             <section
@@ -34,54 +34,94 @@
                 </div>
                </div>
             </div>
-<!--            <div class="o_wevent_events_list">-->
-<!--                <div class="container">-->
-    <!--                    <t t-call="website_event.searched_tags"/>-->
                     <div class="row">
                         <div class="row g-4 g-lg-3 g-xxl-4">
                             <div t-if="not photos" class="col-12 alert alert-warning mt8">
-                                No results found for '<span t-out="original_search"/>'. Showing results for '/>'.
+                                No results found for Events.
                             </div>
                         </div>
                     </div>
     <!-- List -->
+            <div class="container">
+                <style>
+                    .animated-image img {
+                        width: 350px;
+                        height: 280px;
+                        transition: transform 0.5s ease-in-out;
+                    }
 
-                <div id="eventsContainer" class="row mt-4">
-                     <t t-foreach="photos" t-as="event" >
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <img t-attf-src="data:image/png;base64,{{event.photo}}" height="250" wigth="250" />
+                    .animated-image img:hover {
+                        transform: scale(1.2); /* Zoom effect */
+                    }
+                </style>
+
+                <div class="row">
+                    <t t-foreach="request.env['program.gallery'].search([])" t-as="event">
+                        <t t-set="photos" t-value="event.get_random_photos()"/>
+                        <h3><span t-out="event.name"> - </span><span style="color:red;" t-out="event.date"></span></h3>
+                        <t t-foreach="photos" t-as="photo">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 animated-image">
+                                    <img t-att-src="image_data_uri(photo.photo)" height="250" wigth="300" />
+    <!--                                <div class="card-body">-->
+    <!--                                    <h5 class="card-title"><t t-esc="image.name"/></h5>-->
+    <!--                                    <p class="card-text"><t t-esc="image.place"/></p>-->
+    <!--                                </div>-->
+                                </div>
+                            </div>
+                        </t>
+                        <div class="text-end">
+                            <a style="color: green;font-size: 15px;" t-attf-href="/gallery/photos/#{event.id}">
+                                <b>View All</b>
+                            </a>
                         </div>
-                        <div class="text-primary">
-                                <span t-out="event.name"></span>
-                        </div>
-                    </div>
-                </t>
-            </div>
-            <div id="eventsContainer" class="row mt-4">
-                <div class="col-md-3 text-center">
-                    <div>
-                        <a href="https://relaxripple.in/gallery/8">
-                            <img src="https://relaxripple.in/storage/events/DnsU7rM4C5qYPtTBU8cOxOwLW5RJzak0hIjFC2Hm.jpg" width="250" height="250"></img>
-                        </a>
-                    </div>
-                    <div class="text-primary">
-                        FOOTBALL MATCH Date:2024-08-16
-                    </div>
+                    </t>
                 </div>
-                <div class="col-md-3 text-center">
-                    <div>
-                        <a href="https://relaxripple.in/gallery/7">
-                            <img src="https://relaxripple.in/storage/events/ap6uDZYfuwhSSjQJNjigchnm6L3ezw0G0beoW54b.jpg" width="250" height="250"></img>
-                        </a>
-                    </div>
-                    <div class="text-primary">
-                        INDEPENDENCE DAY 2024 Date:2024-08-15
-                    </div>
-                </div>
+
             </div>
     </t>
-</template>
+    </template>
 
+<!--    Images gallery-->
+    <template id="program_events_gallery_individual_event" name="Program and Events">
+        <t t-call="website.layout">
+<!--            <div class="container">-->
+                <section class="s_image_gallery o_spc-small o_masonry pt24 pb24" data-vcss="001" data-columns="3" style="overflow: hidden; background-image: none;" data-snippet="s_images_wall" data-name="Images Wall">
+                    <div class="container">
+                         <style>
+                    .animated-image img {
+                        width: 350px;
+                        height: 280px;
+                        transition: transform 0.5s ease-in-out;
+                    }
+
+                    .animated-image img:hover {
+                        transform: scale(1.2); /* Zoom effect */
+                    }
+                </style>
+                    <div class="row s_nb_column_fixed">
+                        <t t-foreach="gallery.photo_ids" t-as="photo">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-4 animated-image">
+                                    <img t-att-src="image_data_uri(photo.photo)" height="250" wigth="300" />
+                                    <div class="card-body">
+                                        <h5 class="card-title"><t t-esc="photo.name"/></h5>
+                                        <p class="card-text"><t t-esc="photo.place"/></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                        <div class="text-end">
+                            <a style="color: green;font-size: 15px;" t-attf-href="/program_events_gallery">
+                                <b>Back To Gallery</b>
+                            </a>
+                        </div>
+
+            </div>
+    </section>
+<!--            </div>-->
+        </t>
+    </template>
 
 </odoo>

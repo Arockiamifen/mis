@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Attractive Heading Style */
+.attractive-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    background: linear-gradient(45deg, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #2c3e50;
+    padding-bottom: 10px;
+}
+
+/* Subtext Styling */
+.subtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* Hover Effect for Heading */
+.attractive-text:hover {
+    color: #34495e;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    background-color: #ecf0f1;
+    transition: all 0.3s ease;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+        <h1 class="attractive-text">Stylish Headline</h1>
+        <p class="subtext">This is an example of a modern, attractive text design without glowing.</p>
+    </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Attractive Heading Style */
+.attractive-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #333;
+    background: linear-gradient(45deg, #f06, #f90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Subtext Styling */
+.subtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* Glow Animation */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #f06, 0 0 10px #f90, 0 0 15px #f06, 0 0 20px #f90;
+    }
+    100% {
+        text-shadow: 0 0 10px #f90, 0 0 15px #f06, 0 0 20px #f90, 0 0 30px #f06;
+    }
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="container">
+        <h1 class="attractive-text">Welcome to My Website</h1>
+        <p class="subtext">This is an example of stylish text design using CSS.</p>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+   /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    text-align: center;
+}
+
+/* Water Text Effect */
+.water-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: water-animation 3s ease-in-out infinite;
+    letter-spacing: 2px;
+}
+
+/* Water Animation */
+@keyframes water-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Water Reflection Effect */
+.water-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(180deg, rgba(0, 198, 255, 0.4), rgba(0, 114, 255, 0.1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
+    transform: scaleY(-1);
+    z-index: -1;
+    opacity: 0.6;
+    filter: blur(1px);
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="container">
+        <h1 class="water-text">Welcome to My Website</h1>
+        <p class="subtext">This is an example of stylish text design using CSS.</p>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f6fa;
+    text-align: center;
+}
+
+/* Animated Heading Style */
+.animated-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    animation: heading-animation 2.5s ease-in-out infinite;
+    background: linear-gradient(90deg, #3498db, #e74c3c, #9b59b6);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Animation Effect */
+@keyframes heading-animation {
+    0% {
+        letter-spacing: 2px;
+        transform: scale(1);
+        background-position: 0%;
+    }
+    50% {
+        letter-spacing: 4px;
+        transform: scale(1.1);
+        background-position: 100%;
+    }
+    100% {
+        letter-spacing: 2px;
+        transform: scale(1);
+        background-position: 0%;
+    }
+}
+
+/* Hover Effect */
+.animated-heading:hover {
+    color: #e74c3c;
+    -webkit-background-clip: in
+
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="container">
+        <h1 class="animated-heading">Welcome to My Website</h1>
+        <p class="subtext">This is an example of stylish text design using CSS.</p>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e272e;
+    text-align: center;
+}
+
+/* Stylish Heading Style */
+.stylish-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(45deg, #ff6b81, #f9ca24, #22a6b3);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 4s ease-in-out infinite;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Gradient Animation */
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Hover Effect */
+.stylish-heading:hover {
+    color: #fff;
+    text-shadow: 0px 4px 15px rgba(255, 255, 255, 0.8), 0px 0px 10px rgba(255, 107, 129, 0.6);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="container">
+        <h1 class="stylish-heading">Welcome to My Website</h1>
+        <p class="subtext">This is an example of stylish text design using CSS.</p>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    .text-shadow {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.text-stroke {
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke: 2px #3498db;
+}
+.gradient-text {
+    font-size: 4rem;
+    background: linear-gradient(90deg, #f39c12, #8e44ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hover-effect {
+    font-size: 4rem;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+.hover-effect:hover {
+    color: #e74c3c;
+}
+.typing-effect {
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    width: 0;
+    overflow: hidden;
+    border-right: 3px solid;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+.neon-text {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #00f, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+.blurred-text {
+    font-size: 4rem;
+    color: #e74c3c;
+    filter: blur(2px);
+    transition: filter 0.5s ease;
+}
+
+.blurred-text:hover {
+    filter: blur(0);
+}
+.three-d-text {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 3px 3px 0px #3498db, 6px 6px 0px #e74c3c;
+}
+.wave-text {
+    font-size: 4rem;
+    display: inline-block;
+    animation: wave 2s infinite ease-in-out;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.letter-spacing-animation {
+    font-size: 4rem;
+    transition: letter-spacing 0.5s ease;
+}
+
+.letter-spacing-animation:hover {
+    letter-spacing: 10px;
+}
+.text-mask {
+    font-size: 4rem;
+    background: url('https://via.placeholder.com/600x300') repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mask-move 5s linear infinite;
+}
+
+@keyframes mask-move {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 600px 0;
+    }
+}
+
+.rotating-text {
+    font-size: 4rem;
+    display: inline-block;
+    animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+        <div class="container">
+        <h1 class="text-shadow">Shadow Effect</h1>
+        <h1 class="text-stroke">Text Stroke Effect</h1>
+        <h1 class="gradient-text">Gradient Text</h1>
+        <h1 class="hover-effect">Hover Effect</h1>
+        <h1 class="typing-effect">Typing Effect</h1>
+        <h1 class="neon-text">Neon Effect</h1>
+<h1 class="blurred-text">Blurred Text</h1>
+<h1 class="three-d-text">3D Text Effect</h1>
+<h1 class="wave-text">Wave Text</h1>
+<h1 class="letter-spacing-animation">Spacing Effect</h1>
+<h1 class="text-mask">Mask Effect</h1>
+
+<h1 class="rotating-text">Rotating Text</h1>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
+

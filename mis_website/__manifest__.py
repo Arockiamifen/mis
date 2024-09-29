@@ -27,7 +27,7 @@
         'views/online_application_templates.xml',
         'views/student_portal_templates.xml',
         # 'views/template.xml',
-        # 'views/nav_bar_template.xml',
+        'views/nav_bar_template.xml',
         'views/menu.xml',
 
     ],
@@ -40,10 +40,9 @@
     # },
     'assets': {
         'web.assets_frontend': [
-            '/mis_website/static/src/css/web_style.css',
-            # '/mis_website/static/src/css/style.css',
-            '/mis_website/static/src/js/online_application.js',
-            # '/mis_website/static/src/js/main.js',
+            '/mis_website/static/src/css/style.css',
+            # '/mis_website/static/src/css/sample.css',
+            # '/mis_website/static/src/js/online_application.js',
         ],
     },
 

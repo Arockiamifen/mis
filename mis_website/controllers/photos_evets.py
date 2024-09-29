@@ -18,3 +18,14 @@ class program_events_controller(http.Controller):
         }
         print('LODFFFFFFFFFFFFFFFFF',vals)
         return request.render('mis_website.program_events_gallery', vals)
+
+
+    @http.route(['/gallery/photos/<int:event>'], type='http', auth="user", website=True)
+    def appointments_followup(self, event=None, **kw):
+        photo_gallery = request.env['program.gallery'].sudo().search([('id', '=', int(event))])
+        print('DDDDDDDEEEEEEWWWWWWWWWWW',photo_gallery)
+        values = {
+                    'gallery': photo_gallery,
+                }
+        return request.render("mis_website.program_events_gallery_individual_event", values)
+
