@@ -8,10 +8,10 @@
     </record>
     <!--    Educational Dashboard Menu-->
     <menuitem id="education_erp_dashboard_menu_root"
-              name="Educational Dashboard"
+              name="MIS Dashboard"
               web_icon="education_erp_dashboard,static/description/icon.png"/>
     <!--    Dashboard Menu-->
-    <menuitem id="erp_dashboard_details_menu" name="Dashboard"
+    <menuitem id="erp_dashboard_details_menu" name="MIS Dashboard"
               action="education_erp_dashboard_action"
               parent="education_erp_dashboard_menu_root"/>
 </odoo>

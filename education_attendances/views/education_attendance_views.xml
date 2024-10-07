@@ -149,7 +149,7 @@
             'search_default_group_class_id': 1}
         </field>
     </record>
-    <menuitem id="education_attendance_root_menu" name="Attendance"
+    <menuitem id="education_attendance_root_menu" name="MIS Attendance"
               sequence="12"
               web_icon="education_attendances,static/description/icon.png"/>
     <menuitem id="education_attendance_main_menu"

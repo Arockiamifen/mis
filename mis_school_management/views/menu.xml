@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- MIS Menu -->
+    <menuitem id="menu_mis_school_root"
+              name="MIS"
+              sequence="20"
+              web_icon="mis_school_management,static/description/mis.png"/>
+
+    <menuitem id="menu_mis_school_main"
+              name="Students"
+              parent="menu_mis_school_root"
+              sequence="10"
+              action="act_open_mis_student_view"/>
+
+    <menuitem id="menu_mis_teacher_main"
+              name="Faculties"
+              parent="menu_mis_school_root"
+              sequence="20"
+              action="act_open_mis_teacher_view"/>
+
+     <!-- Menu item to access the class master -->
+    <menuitem id="menu_school_class_master_mis" name="Classes"
+              parent="menu_mis_school_root" action="action_class_master_mis" sequence="30"/>
+
+
+    <!-- Configuration Menu -->
+    <menuitem id="menu_mis_school_config"
+              name="Configuration"
+              parent="menu_mis_school_root"
+              sequence="60"/>
+
+    <menuitem id="menu_mis_school_config_academic_year"
+              name="Academic Year"
+              parent="menu_mis_school_config"
+              action="act_mis_academic_year_view"
+              sequence="10"/>
+
+    <menuitem id="menu_mis_school_config_subjects"
+              name="Subjetcs"
+              parent="menu_mis_school_config"
+              action="act_open_mis_subject_view"
+              sequence="20"/>
+
+    <menuitem id="menu_class_master_mis_configuration"
+              name="Class Master"
+              parent="menu_mis_school_config"
+              action="action_class_master_mis_configuration"
+              sequence="30"/>
+
+</odoo>

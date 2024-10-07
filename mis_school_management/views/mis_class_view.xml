@@ -1,0 +1,75 @@
+<odoo>
+    <record id="view_class_master_form" model="ir.ui.view">
+        <field name="name">mis.class.master.form</field>
+        <field name="model">mis.class</field>
+        <field name="arch" type="xml">
+            <form string="MIS Classes">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="class_teacher_id"/>
+                        <field name="capacity"/>
+                    </group>
+                    <group>
+                        <field name="description"/>
+                    </group>
+                    <notebook>
+                        <page string="Students">
+                            <field name="student_ids">
+                                <tree string="Students">
+                                    <field name="name"/>
+<!--                                    <field name="age"/>-->
+                                    <field name="parent_id"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+<!--    Tree view-->
+     <record id="view_class_master_tree" model="ir.ui.view">
+        <field name="name">mis.class.master.tree</field>
+        <field name="model">mis.class</field>
+        <field name="arch" type="xml">
+            <tree string="MIS Classes">
+                    <field name="name"/>
+                    <field name="class_teacher_id"/>
+                    <field name="capacity"/>
+            </tree>
+        </field>
+     </record>
+
+    <!-- Action to open the form view -->
+    <record id="action_class_master_mis" model="ir.actions.act_window">
+        <field name="name">Classes</field>
+        <field name="res_model">mis.class</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+
+<!--    Tree view-->
+     <record id="view_class_master_configuration_tree" model="ir.ui.view">
+        <field name="name">class.master.config.tree</field>
+        <field name="model">class.master.config</field>
+        <field name="arch" type="xml">
+            <tree string="Class Configuration" editable="top">
+                    <field name="name"/>
+                    <field name="date"/>
+            </tree>
+        </field>
+     </record>
+
+    <!-- Action to open the form view -->
+    <record id="action_class_master_mis_configuration" model="ir.actions.act_window">
+        <field name="name">Class Configuration</field>
+        <field name="res_model">class.master.config</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

@@ -2,8 +2,11 @@
 <odoo>
 	<data>
 
+        <menuitem id="mis_website_menu_root" name="Web Gallery"
+              sequence="10"/>
+
         <menuitem id="website_configuration_main_menu" name="Web Gallery"
-              parent="mis_school_management.university_menu_root" sequence="10"/>
+              parent="mis_website_menu_root" sequence="10"/>
 
 		<menuitem id="website_configuration_gallery_menu" name="Gallery"
               parent="website_configuration_main_menu"

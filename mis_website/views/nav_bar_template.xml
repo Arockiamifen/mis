@@ -53,7 +53,7 @@
                         <t t-set="_link_class" t-valuef="me-4"/>
                     </t>
 <!--                    <div>-->
-<!--                        <h5 class="stylish-heading">MARY IMMACULATE ENGLISH MEDIUM SCHOOL</h5>-->
+<!--                        <h5 class="stylish-heading">MARY IMMACULATE SCHOOL, BASIRHAT</h5>-->
 <!--                    </div>-->
                     <div class="ms-auto">
                         <ul class="navbar-nav justify-content-end align-items-center gap-2 w-100 o_header_separator">

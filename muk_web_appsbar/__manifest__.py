@@ -19,7 +19,7 @@
         'web',
     ],
     'data': [
-        'templates/webclient.xml',
+        # 'templates/webclient.xml',
         'views/res_users.xml',
         'views/res_config_settings.xml',
     ],

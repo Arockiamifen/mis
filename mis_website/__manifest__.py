@@ -40,7 +40,7 @@
     # },
     'assets': {
         'web.assets_frontend': [
-            '/mis_website/static/src/css/style.css',
+            # '/mis_website/static/src/css/style.css',
             # '/mis_website/static/src/css/sample.css',
             # '/mis_website/static/src/js/online_application.js',
         ],

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Main menus of Education-->
-    <menuitem id="menu_education_root" name="Education"
+    <menuitem id="menu_education_root" name="MIS"
               web_icon="education_core,static/description/icon.png"
               sequence="2"/>
     <menuitem id="menu_education_main_menu" name="Configuration"
